@@ -59,7 +59,7 @@ const App = () => {
         </Suspense>
       </Canvas>
       <Loader />
-      <ChestModal />
+      <ChestModal open={open} setOpen={setOpen} />
     </>
   );
 };
