@@ -9,6 +9,8 @@ import { softShadows, Loader, OrbitControls } from "@react-three/drei";
 //Model
 import Model from './components/Three/chest';
 import { useSpring } from "react-spring";
+// Chest Modal
+import ChestModal from './components/chestModal';
 
 softShadows();
 
@@ -57,6 +59,7 @@ const App = () => {
         </Suspense>
       </Canvas>
       <Loader />
+      <ChestModal />
     </>
   );
 };
